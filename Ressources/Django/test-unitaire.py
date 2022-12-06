@@ -29,9 +29,7 @@ assertSetEqual(s1, s2) # compare deux ensembles
 assertDictEqual(d1, d2) # compare deux dictionnaires
 assertAlmostEqual(a, b) # round(a-b, 7) == 0
 assertNotAlmostEqual(a, b) # round(a-b, 7) != 0
-
 assertCountEqual(a, b) # mêmes éléments dans le même nombre + même ordre
-
 assertRegex(s, r) # l'expression rationnelle correspond à la chaîne
 assertNotRegex(s, r) # l'expression rationnelle ne correspond pas à la chaîne
 assertRaises(exception, function, *args, **kwds) # fonction génère exception
