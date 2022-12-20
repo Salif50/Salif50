@@ -16,4 +16,18 @@ childElementCount() /* récupère le nombre d'élément enfants dans le noeud sp
 childNodes() /* récupère une liste des noeuds enfants de l'élément */
 classList() /* récupère une liste ou les noms de classe de l'élément */
 className() /* récupère ou definit la valeur de l'attribut de classe de l'élément */
+firstChild() /* le noeud premier enfant */
+firstElementChild() /* premier enfant */
+removeChild() /* supprimer l'élément */
+/* événements */
+
+addEventListener('eventName',callBackFunction,false) /* ajouter un écouteur d'événement */
+/* quelques eventName*/
+click // sur le clic
+focus // réception de focus
+blur // perte de focus 
+submit // soumission de formulaire 
+load // chargement de la page 
+
+// callBackFunction est la fonction à appeler quand l'événement est lieu 
 
